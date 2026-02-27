@@ -3,7 +3,7 @@
 ## 🧠 Apprentissages sur Aramis
 - **Préférences de Stack** : Priorité absolue à PyTorch et Docker.
 - **Biais Recrutement** : Aramis préfère les environnements "Engineering-first" plutôt que les grands groupes purement "Business".
-- **Localisation** : Priorité Nantes, puis Paris. Le remote est un bonus apprécié.
+- **Localisation** : Priorité Nantes, puis Paris, Londres, Amsterdam ou Stockholm.
 
 ## 🏢 Entreprises & Candidatures (Suivi)
 - **Status :**
