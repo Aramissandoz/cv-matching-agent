@@ -1,0 +1,26 @@
+# --- Sécurité & Clés ---
+.env
+*.pem
+credentials/
+
+# --- Données Personnelles (Bloque tout le contenu de data) ---
+data/*
+# Sauf le fichier .gitkeep pour que le dossier data existe sur GitHub
+!data/.gitkeep
+
+# --- Notes et fichiers temporaires ---
+*.txt
+!requirements.txt
+*.log
+canvas/
+sessions/
+logs/
+
+# --- Python ---
+__pycache__/
+venv/
+.pytest_cache/
+
+# --- OpenClaw Système ---
+.openclaw/
+exec-approvals.json
