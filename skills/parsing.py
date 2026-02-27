@@ -17,7 +17,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler(sys.stderr)],
-)
+) 
 logger = logging.getLogger(__name__)
 
 CV_PARSING_PROMPT = """Tu es un modèle spécialisé dans l'analyse de CV techniques à haute valeur ajoutée,

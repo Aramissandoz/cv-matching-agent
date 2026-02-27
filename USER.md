@@ -1,17 +1,19 @@
-# USER.md - About Your Human
+# USER.md - Profil Utilisateur (Template)
 
-_Learn about the person you're helping. Update this as you go._
+## 👤 Identification du Candidat
+- **Source de Vérité** : Les informations de ce profil doivent être extraites dynamiquement du fichier présent dans `data/` (PDF ou JSON généré).
+- **Nom/Prénom** : [Extrait dynamiquement par parsing.py].
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+## 🎯 Cibles de Recherche (À configurer par l'utilisateur)
+_L'utilisateur doit éditer cette section pour définir ses objectifs._
+- **Métiers visés** : Liste des intitulés de postes (ex: ML Ops, Data Scientist, Quant).
+- **Type de contrat** : Stage, Alternance, CDI.
+- **Durée & Période** : Préciser les dates de disponibilité (ex: 2 mois, Été 2026).
+- **Localisation** : Villes cibles ou préférence pour le Remote.
 
-## Context
-
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+## 🛠️ Préférences Techniques
+- **Stack Prioritaire** : Frameworks ou langages sur lesquels l'agent doit mettre l'accent (ex: PyTorch, Rust).
+- **Seuil de Matching** : Score minimal (ex: 75%) pour qu'une offre soit considérée comme pertinente.
 
 ---
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+_Note pour l'Agent : Si ce fichier est vierge, base tes recherches exclusivement sur l'analyse de `data/cv_parsed.json` produite par le skill de parsing._
