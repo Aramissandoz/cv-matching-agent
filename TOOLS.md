@@ -1,40 +1,11 @@
-# TOOLS.md - Local Notes
+## Custom Skills - Recruitment Pipeline
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+### 1. CV_Extractor (parsing.py)
+- **Action** : Extrait le texte brut du PDF et le convertit en entités JSON (Compétences, Expériences).
+- **Commande** : `py skills/parsing.py "data/CV français - Aramis Sandoz.pdf"`
+- **Output** : Crée `data/cv_parsed.json`.
 
-## What Goes Here
-
-Things like:
-
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
-
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+### 2. Match_Scorer (scoring.py)
+- **Action** : Compare les infos cruciales du CV avec une description de poste trouvée sur le web.
+- **Commande** : `py skills/scoring.py "data/cv_parsed.json" "data/temp_job_desc.json"`
+- **Output** : Retourne un pourcentage de similarité et un résumé des points forts.
