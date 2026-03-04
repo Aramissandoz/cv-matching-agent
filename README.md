@@ -1,4 +1,5 @@
 Agent sur Openclaw avec l'utilisation du web scraper et finder + pdf parser pour extraire les infos et compétences de mon cv adéquate ainsi que des offres de stage de LinkedIn et WTTJ pour trouver des stages sur ma période de stage en 2026. 
+Ce model évite de postuler sans cesse sans aucune réelle pertinence par rapport à ton profil et donc préciser et optimiser ton temps sur des recherches de stages ou alternace qui prennent beaucoup de rigeur et de recherche/démarchage.
 Un scoring est réalisé au niveau de différent critères comme : 
 - Période de stage
 - Secteur de recherche (ex : AI/ML) 
